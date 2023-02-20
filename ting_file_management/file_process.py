@@ -3,7 +3,7 @@ from ting_file_management.file_management import txt_importer
 
 
 def process(path_file, instance):
-    for index in instance._data: # lista inicial queue
+    for index in instance._data:  # lista inicial queue
         if index["nome_do_arquivo"] == path_file:
             return None
 
@@ -30,4 +30,4 @@ def remove(instance):
 
 
 def file_metadata(instance, position):
-    """Aqui irá sua implementação"""
+    
